@@ -138,6 +138,7 @@ venv.bak/
 .firstvenv
 .secondvenv
 .thirdvenv
+.fourthvenv
 
 # Spyder project settings
 .spyderproject
