@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from enum import Enum
 
-class ModelNmae(str, Enum):
+class ModelName(str, Enum):
     alexnet = "alexnet"
     resnet = "resnet"
     lenet = "lenet"
@@ -27,9 +27,9 @@ async def read_user(user_id: str):
 # API
 # http://127.0.0.1:8000/models/{model_name}
 @app.get("/models/{model_name}")
-async def get_model(model_name: ModelNmae):
+async def get_model(model_name: ModelName):
     # 키를 요청
-    if model_name is ModelNmae.alexnet:
+    if model_name is ModelName.alexnet:
         return {"model_name": model_name, "message": "키 요청: Deep Learning FTW!"}
     # 값을 요청
     if model_name.value == "lenet":
