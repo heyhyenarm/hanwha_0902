@@ -183,3 +183,5 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+/python0902/ex_0908/.fifthvenv
+/python0902/ex_0908_2/.fastvenv
