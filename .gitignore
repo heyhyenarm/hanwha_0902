@@ -185,3 +185,4 @@ cython_debug/
 .cursorindexingignore
 /python0902/ex_0908/.fifthvenv
 /python0902/ex_0908_2/.fastvenv
+/python0902/ex_0909/.fast3venv
